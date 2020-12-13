@@ -1,0 +1,74 @@
+{
+  "name": "newone",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^2.10.6",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "^3.2.10",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "chart.js": "^2.9.3",
+    "clsx": "^1.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "formik": "^2.1.5",
+    "history": "^5.0.0",
+    "jwt-decode": "^3.0.0",
+    "lodash": "^4.17.19",
+    "material-ui-search-bar": "^1.0.0",
+    "moment": "^2.27.0",
+    "nprogress": "^0.2.0",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "qrcode": "^1.4.4",
+    "react": "^17.0.1",
+    "react-chartjs-2": "^2.10.0",
+    "react-dom": "^17.0.1",
+    "react-facebook-login": "^4.1.1",
+    "react-feather": "^2.0.8",
+    "react-google-login": "^5.1.24",
+    "react-helmet": "^6.1.0",
+    "react-map-gl": "^5.2.10",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-placeholder": "^4.0.3",
+    "react-qr-reader": "^2.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-time-picker": "^4.0.1",
+    "socket.io-client": "^3.0.3",
+    "uuid": "^8.3.1",
+    "web-vitals": "^0.2.4",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
